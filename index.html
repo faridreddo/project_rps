@@ -8,13 +8,11 @@
         <button id = 'paper'>Paper</button>
         <button id = 'scissors'>Scissors</button>
     </body>
-    <script>
-        /*FOR ONE ROUND*/
-        
+    <script>        
         let randomNumbers;
         let computerChoice;
         function computerGenerate(){
-            /*generate a number, numbers become choice*/
+        /*generate a number, numbers become choice*/
         randomNumbers = Math.floor(Math.random() * 10);
         /*to assign numbers generated to a string*/
         if (randomNumbers <= 3){
@@ -35,7 +33,7 @@
         playerChoice = userInput.toLowerCase();
         };
 
-    /*player clicks on button*/ 
+    /*player clicks on button (DOM)*/ 
     /*
     document.getElementById('rock').addEventListener("click", function(){
     });
@@ -48,6 +46,7 @@
 /*plays a single round,
 take two parameters and returns strings that
 declares the winner or loser*/
+/* track wins, draws and losses, stored as a global variable*/
 let win = 0;
 let draw = 0;
 let lose = 0;

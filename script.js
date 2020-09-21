@@ -1,4 +1,4 @@
-/* TRIAL SCRIPT*/
+/* trial script */
 
 /*FOR ONE ROUND*/
         
@@ -144,4 +144,4 @@ console.log(result + "your wins: " + win + "your losses: " + lose);
                 return 'wad is dis'
             }
         }
-    console.log(endMessage());
+        
