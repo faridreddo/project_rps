@@ -22,16 +22,6 @@ let userInput = prompt('rock paper or scissors?');
 playerChoice = userInput.toLowerCase();
 };
 
-/*player clicks on button (DOM)*/ 
-/*
-document.getElementById('rock').addEventListener("click", function(){
-});
-document.getElementById('paper').addEventListener("click", function(){
-});
-document.getElementById('scissors').addEventListener("click", function(){
-}); 
-*/
-
 /*plays a single round,
 take two parameters and returns strings that
 declares the winner or loser*/
